@@ -176,3 +176,50 @@ h6 {
     z-index: 1;
     background-color: #f38181;
 }
+
+
+/* ABOUT US  ||  SECOND PAGE*/
+
+.container_about{
+       width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.about_title{
+    margin-top: 90px;
+}
+.up_story_about{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+
+.story_about{
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+.story_about::after{
+    content: "";
+    display: block;
+    margin: 40px auto 0;
+    height: 3px;
+    width: 62px;
+    background-color: #f38181;
+}
+
+.text_about{
+    width: 100%;
+    max-width: 960px;
+    margin: 40px auto 80px;
+    text-align: center;
+}
+
+.p_about{
+    font-size: 15px;
+    font-family: Roboto;
+    color: #aaaaaa;
+}
