@@ -178,13 +178,15 @@ h6 {
 }
 
 
+
+
 /* ABOUT US  ||  SECOND PAGE*/
 
 .container_about{
        width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    height: 100vh;
+
 }
 
 .about_title{
@@ -222,4 +224,50 @@ h6 {
     font-size: 15px;
     font-family: Roboto;
     color: #aaaaaa;
+}
+
+
+/* ABOUT US ITEMS */
+.about_items{
+    width: 100%;
+    max-width: 1210px;
+    margin: 0 auto 110px;
+    height: 260px;
+    border: 2px solid black;
+}
+
+
+/* STATICS */
+.about_award{
+    width: 100%;
+    max-width: 100vw;
+    background-color: #95e1d3;
+}
+
+.statics{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.stat_item{
+    border-left: 1px solid #b5eae0;
+    color: #fff;
+    width: 240px;
+    padding: 70px 0;
+}
+.stat_count{
+    font-size: 72px;
+    font-weight: 600;
+}
+.stat_text{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.stat_item:last-child{
+    border-right: 1px solid #b5eae0;
 }
