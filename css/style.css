@@ -33,4 +33,6 @@ h6 {
 .intro {
     width: 100%;
     height: 100vh;
+
+    background: url("../img/images/MoGo_FREE_Template_by_Laaqiq_01.jpg") center no-repeat;
 }
