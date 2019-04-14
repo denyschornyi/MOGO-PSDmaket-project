@@ -261,6 +261,7 @@ h6 {
 .stat_count{
     font-size: 72px;
     font-weight: 600;
+    line-height: 1.2;
 }
 .stat_text{
     text-transform: uppercase;
