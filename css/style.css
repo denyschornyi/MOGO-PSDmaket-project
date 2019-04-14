@@ -35,4 +35,48 @@ h6 {
     height: 100vh;
 
     background: url("../img/images/MoGo_FREE_Template_by_Laaqiq_01.jpg") center no-repeat;
+    background-size: cover;
+}
+
+
+/*HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.nav {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.nav_font {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s liner;
+}
+
+.nav_font:hover {
+    color: #fce38a;
+    border-bottom: 1px solid #fce38a;
+    margin-bottom: -1px;
 }
