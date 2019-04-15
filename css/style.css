@@ -31,11 +31,48 @@ h6 {
 
 /* INTRO */
 .intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
     height: 100vh;
 
     background: url("../img/images/MoGo_FREE_Template_by_Laaqiq_01.jpg") center no-repeat;
     background-size: cover;
+}
+
+.intro_inner {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
+.up_title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 72px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 150px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+}
+
+.title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    margin: 30px auto 0;
+
 }
 
 
@@ -72,11 +109,70 @@ h6 {
     margin: 0 15px;
     color: #fff;
     text-decoration: none;
-    transition: color 0.2s liner;
+
 }
 
 .nav_font:hover {
     color: #fce38a;
-    border-bottom: 1px solid #fce38a;
-    margin-bottom: -1px;
+    border-bottom: 2px solid #fce38a;
+    margin-bottom: -2px;
+    transition: .2s;
+}
+
+
+/* BUTTTON */
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    border: 3px solid #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 13px;
+    margin-top: 50px;
+    font-weight: 700;
+
+}
+
+.btn:hover {
+    color: #333;
+    background-color: #fff;
+    transition: .8s;
+}
+
+
+/* SLIDER */
+.intro_slider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider_item {
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+    width: 23%;
+    padding: 10px;
+    border-top: 3px solid #fff;
+    margin-top: 40px;
+    opacity: .7;
+}
+
+.slider_item.active {
+    opacity: 1;
+}
+
+
+.slider_item.active::before {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    top: -2px;
+    left: 0;
+    z-index: 1;
+    background-color: #f38181;
 }
