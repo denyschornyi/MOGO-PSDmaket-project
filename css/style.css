@@ -256,7 +256,7 @@ h6 {
 
 .about_img img {
     display: block;
-    transition: opacity .2s linear;
+    transition: opacity .3s linear;
 }
 
 .about_text {
@@ -271,7 +271,17 @@ h6 {
     left: 0;
     z-index: 2;
     transform: translate3d(0, -50%, 0);
+    opacity: 0;
+    transition: opacity .2s linear;
 }
+
+.about_item:hover .about_text {
+    opacity: 1;
+
+}
+
+
+
 
 /* STATICS */
 .about_award {
