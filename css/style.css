@@ -336,3 +336,13 @@ i{
 .stat_item:last-child {
     border-right: 1px solid #b5eae0;
 }
+
+
+/* SERVICES */
+
+.amazing_services{
+    width: 100%;
+    max-width: 1200px;
+    margin: 110px auto 60px;
+
+}
