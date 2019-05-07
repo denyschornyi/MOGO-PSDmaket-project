@@ -21,6 +21,15 @@ h6 {
     margin: 0;
 }
 
+hr {
+    width: 100%;
+    height: 1px;
+    display: block;
+    background-color: #e5e5e5;
+    margin: 40px 0;
+    border: 0;
+}
+
 /* CONTAINER */
 .container {
     width: 100%;
@@ -37,7 +46,7 @@ h6 {
     width: 100%;
     height: 100vh;
 
-    background: url("../img/images/MoGo_FREE_Template_by_Laaqiq_01.jpg") center no-repeat;
+    background: url("../img/MoGo_FREE_Template_by_Laaqiq_01.jpg") center no-repeat;
     background-size: cover;
 }
 
@@ -259,6 +268,7 @@ h6 {
     transition: opacity .3s linear;
 }
 
+
 .about_text {
     width: 100%;
     color: #fff;
@@ -280,7 +290,24 @@ h6 {
 
 }
 
-i{
+i {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 41%;
+    left: 48%;
+    z-index: 2;
+    transform: translate3d(0, -50%, 0);
+    opacity: 0;
+    transition: opacity .2s linear;
+}
+
+.about_item:hover i {
+    opacity: 1;
+}
+
+i {
     width: 100%;
     z-index: 1000;
     font-size: 20px;
@@ -292,9 +319,12 @@ i{
     transform: translate3d(0, -50%, 0);
     transition: opacity .2s linear;
     opacity: 0;
+
 }
 
-.about_item:hover i{
+
+
+.about_item:hover i {
     opacity: 1;
 }
 
@@ -338,14 +368,115 @@ i{
 }
 
 
+.services_inner {
+    margin-top: 110px;
+}
 
 /* SERVICES */
 
-.amazing_services{
+.amazing_services {
     width: 100%;
     max-width: 1200px;
     margin: 110px auto 60px;
 
 }
 
+.amazing_services::before {
+    content: "";
+    display: block;
+}
 
+.services {
+    margin-top: 65px;
+    margin-bottom: 55px;
+    display: flex;
+}
+
+.services_item {
+    flex: 1 1 0;
+    padding-left: 50px;
+    position: relative;
+
+}
+
+.services_icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-right: 30px;
+}
+
+.services_title {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+
+}
+
+.services_text {
+    color: #b3b3b3;
+}
+
+.services_second {
+    display: flex;
+    margin-top: 55px;
+}
+
+
+/* UNIQUE DESIGN  */
+.design_block {
+    height: 100vh;
+    background: url("../img/images/images/images/MoGo_FREE_Template_by_Laaqiq_24.jpg") center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.unique_design {
+    width: 100%;
+
+
+}
+
+.design_inner {
+    margin-top: 110px;
+}
+
+.devices {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+.device_img {
+    display: block;
+    padding: 0;
+    margin: 35px 0 0;
+}
+
+.device_img--iphone {
+    position: absolute;
+    bottom: -70px;
+    right: 0;
+    z-index: 1;
+}
+
+
+/*  SERVICE / WHAT WE DO */
+
+.block_services {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services_about {
+    width: 100%;
+    max-width: 960px;
+    margin: 50px auto 0;
+    font-size: 15px;
+    color: #9f9f9f;
+    text-align: center;
+}
