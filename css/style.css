@@ -46,7 +46,7 @@ hr {
     width: 100%;
     height: 100vh;
 
-    background: url("../img/MoGo_FREE_Template_by_Laaqiq_01.jpg") center no-repeat;
+    background: url("../img/images/MoGo_FREE_Template_by_Laaqiq_01.jpg") center no-repeat;
     background-size: cover;
 }
 
@@ -426,7 +426,7 @@ i {
 /* UNIQUE DESIGN  */
 .design_block {
     height: 100vh;
-    background: url("../img/images/images/images/MoGo_FREE_Template_by_Laaqiq_24.jpg") center no-repeat;
+    background: url("../img/images/unique-bg.jpg") center no-repeat;
     background-size: cover;
     position: relative;
 }
